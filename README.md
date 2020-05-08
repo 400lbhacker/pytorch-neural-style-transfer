@@ -5,7 +5,8 @@
 
 beast neural style transfer using googlenet inception instead of VGG like all other python3+ style transfers.
 this way we eliminate the need for 4gb ram, eliminate GPU dependency(although still recomended) & eliminate need for hundreds of iterations. Also includes support for large HD images with no cropping/truncation. thus you retain 100% quality with no distortion loss.
-(many others dont support large images / had bad memory leaks when using larger photos)
+(many others dont support large images / had bad memory leaks when using larger photos) and finally unlike 95% of other style transfers
+that statically produce results, those produced with this include high entropy & hidden randomness for unique artistic dynamics
 
 note: 
 ------------------------------------
@@ -68,3 +69,5 @@ https://github.com/400lbhacker/beast-pytorch-tensorflow-neural-style-transfer/
 ---------------------------------------------
 
 to instantly run online, click here to launch in google colab: 
+
+https://colab.research.google.com/github/400lbhacker/beast-pytorch-tensorflow-neural-style-transfer/blob/master/beast-pytorch-tensorflow-neural-style-transfer.ipynb
