@@ -1,5 +1,8 @@
 # pytorch-neural-style-transfer
 
+![Image of Yaktocat](https://github.com/400lbhacker/beast-pytorch-tensorflow-neural-style-transfer/blob/master/rr.png)
+
+
 beast neural style transfer using googlenet inception instead of VGG like all other python3+ style transfers.
 this way we eliminate the need for 4gb ram, eliminate GPU dependency(although still recomended) & eliminate need for hundreds of iterations. Also includes support for large HD images with no cropping/truncation. thus you retain 100% quality with no distortion loss.
 (many others dont support large images / had bad memory leaks when using larger photos)
